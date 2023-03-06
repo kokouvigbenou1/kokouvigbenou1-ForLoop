@@ -34,7 +34,7 @@ public class ForLoopTest {
      */
     @Test
     public void returnStringTest3(){
-        int input = 3;
+        int input = 4;
         String expected = "3 4 5 6";
         String actual = floop.returnNumbers(3, 7).trim();
         Assert.assertEquals(expected,actual);
